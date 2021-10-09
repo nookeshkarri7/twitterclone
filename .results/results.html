@@ -1,0 +1,962 @@
+<html lang="en"><head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>jest-stare!</title>
+            <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+	        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/522ee478c4.js" crossorigin="anonymous"></script>
+            <script src="js/view.js"></script>
+        </head><body><div id="test-results" style=" display: flex; flex-direction: column; width: 80%; padding: 25px 0px; margin: auto; font-family: roboto;  margin-top:60px;">{
+  &quot;numFailedTestSuites&quot;: 1,
+  &quot;numFailedTests&quot;: 34,
+  &quot;numPassedTestSuites&quot;: 0,
+  &quot;numPassedTests&quot;: 0,
+  &quot;numPendingTestSuites&quot;: 0,
+  &quot;numPendingTests&quot;: 0,
+  &quot;numRuntimeErrorTestSuites&quot;: 0,
+  &quot;numTodoTests&quot;: 0,
+  &quot;numTotalTestSuites&quot;: 1,
+  &quot;numTotalTests&quot;: 34,
+  &quot;openHandles&quot;: [],
+  &quot;snapshot&quot;: {
+    &quot;added&quot;: 0,
+    &quot;didUpdate&quot;: false,
+    &quot;failure&quot;: false,
+    &quot;filesAdded&quot;: 0,
+    &quot;filesRemoved&quot;: 0,
+    &quot;filesRemovedList&quot;: [],
+    &quot;filesUnmatched&quot;: 0,
+    &quot;filesUpdated&quot;: 0,
+    &quot;matched&quot;: 0,
+    &quot;total&quot;: 0,
+    &quot;unchecked&quot;: 0,
+    &quot;uncheckedKeysByFile&quot;: [],
+    &quot;unmatched&quot;: 0,
+    &quot;updated&quot;: 0
+  },
+  &quot;startTime&quot;: 1633754477219,
+  &quot;success&quot;: false,
+  &quot;testResults&quot;: [
+    {
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 34,
+      &quot;numPassingTests&quot;: 0,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1633754481185,
+        &quot;runtime&quot;: 2639,
+        &quot;slow&quot;: false,
+        &quot;start&quot;: 1633754478546
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0,
+        &quot;uncheckedKeys&quot;: []
+      },
+      &quot;testFilePath&quot;: &quot;/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 11,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;matcherResult&quot;: {
+                  &quot;actual&quot;: &quot;undefined&quot;,
+                  &quot;expected&quot;: &quot;function&quot;,
+                  &quot;name&quot;: &quot;toBe&quot;,
+                  &quot;pass&quot;: false
+                }
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \&quot;function\&quot;\nReceived: \&quot;undefined\&quot;&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \&quot;function\&quot;\nReceived: \&quot;undefined\&quot;\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:47:24)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \&quot;function\&quot;\nReceived: \&quot;undefined\&quot;\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:47:24)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseAn Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;An Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_1&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:54:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:54:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request with path &#x27;/register/&#x27; should return &#x27;User already exists&#x27; as a response if the username already exists&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/register/&#x27; should return &#x27;User already exists&#x27; as a response if the username already exists&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_2&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 2,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;all&#x27; of null&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;all&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:70:22)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;all&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:70:22)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseA user should not be created if the username already exists in database&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;A user should not be created if the username already exists in database&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_3&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:84:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:84:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request with path &#x27;/register/&#x27; should return &#x27;Password is too short&#x27; as a response if the registrant provides a password with less than 6 characters&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/register/&#x27; should return &#x27;Password is too short&#x27; as a response if the registrant provides a password with less than 6 characters&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_4&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:101:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:101:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request with path &#x27;/register/&#x27; should return &#x27;User created successfully&#x27; text as a response for a successful registration&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/register/&#x27; should return &#x27;User created successfully&#x27; text as a response for a successful registration&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_5&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of null&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:117:45)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:117:45)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe password should be encrypted before creating a user in the database&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The password should be encrypted before creating a user in the database&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_6&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of null&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:127:22)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:127:22)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe user should be created in the database upon the success of the request with path &#x27;/register/&#x27;&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The user should be created in the database upon the success of the request with path &#x27;/register/&#x27;&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_7&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:139:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:139:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request with path &#x27;/login/&#x27; should return &#x27;Invalid user&#x27; text as a response for an unregistered user&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/login/&#x27; should return &#x27;Invalid user&#x27; text as a response for an unregistered user&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_8&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:154:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:154:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request with path &#x27;/login/&#x27; should return &#x27;Invalid password&#x27; text as a response if the user provides an incorrect password&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/login/&#x27; should return &#x27;Invalid password&#x27; text as a response if the user provides an incorrect password&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_9&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:169:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:169:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request with path &#x27;/login/&#x27; should return &#x27;JWT Token&#x27; as a response if the user provides correct credentials&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/login/&#x27; should return &#x27;JWT Token&#x27; as a response if the user provides correct credentials&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_10&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:183:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:183:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/tweets/feed/&#x27; with invalid JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/tweets/feed/&#x27; with invalid JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_11&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:194:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:194:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/tweets/feed/&#x27; with valid JWT token should return the latest 4 tweets of people whom the user follows&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/tweets/feed/&#x27; with valid JWT token should return the latest 4 tweets of people whom the user follows&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_12&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:229:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:229:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/following/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/following/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_13&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:238:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:238:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/following/&#x27; with valid JWT token should return the list of all names of people whom the user follows&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/following/&#x27; with valid JWT token should return the list of all names of people whom the user follows&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_14&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 2,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:253:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:253:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/followers/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/followers/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_15&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:263:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:263:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/followers/&#x27; with valid JWT token should return the list of all names of people who follows the user&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/followers/&#x27; with valid JWT token should return the list of all names of people who follows the user&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_16&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:273:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:273:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/tweets/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/tweets/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_17&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:283:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:283:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/user/tweets/&#x27; with valid JWT token should return the list of all tweets of the user&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/user/tweets/&#x27; with valid JWT token should return the list of all tweets of the user&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_18&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:308:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:308:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_19&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:319:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:319:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_20&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:330:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:330:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/&#x27; with valid JWT token should return the tweet&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/&#x27; with valid JWT token should return the tweet&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_21&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:347:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:347:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_22&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:358:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:358:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_23&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:369:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:369:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; with valid JWT token and should return the list of usernames who liked the tweet&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; with valid JWT token and should return the list of usernames who liked the tweet&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_24&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:382:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:382:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_25&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:393:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:393:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_26&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:404:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:404:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; with valid JWT token and should return tweet and the list of all replies&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; with valid JWT token and should return tweet and the list of all replies&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_27&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:426:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:426:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request to the path &#x27;/user/tweets/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The POST request to the path &#x27;/user/tweets/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_28&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:439:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:439:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe POST request to the path &#x27;/user/tweets/&#x27; with valid JWT token should return `Created a Tweet` text as a response upon success&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The POST request to the path &#x27;/user/tweets/&#x27; with valid JWT token should return `Created a Tweet` text as a response upon success&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_29&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of null&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:452:22)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:452:22)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe database should be updated upon the successful post request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The database should be updated upon the successful post request&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_30&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;delete&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;delete&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:459:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;delete&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:459:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe DELETE request to the path &#x27;tweets/:tweetId/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The DELETE request to the path &#x27;tweets/:tweetId/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_31&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;delete&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;delete&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:468:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;delete&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:468:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe DELETE request to the path &#x27;tweets/:tweetId/&#x27; with valid JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid Request&#x27; if the tweet doesn&#x27;t belong to the user&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The DELETE request to the path &#x27;tweets/:tweetId/&#x27; with valid JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid Request&#x27; if the tweet doesn&#x27;t belong to the user&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_32&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;delete&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;delete&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:478:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;delete&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:478:8)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe DELETE request to the path &#x27;tweets/:tweetId&#x27; with valid JWT token should return `Tweet Removed` text as a response upon success&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The DELETE request to the path &#x27;tweets/:tweetId&#x27; with valid JWT token should return `Tweet Removed` text as a response upon success&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_33&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Operations on Twitter Clone database&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of null&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:487:27)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/.tests/index.test.js:487:27)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-assignments/coding-assignment-2/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Operations on Twitter Clone databaseThe database should be updated upon the successful delete request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The database should be updated upon the successful delete request&quot;,
+          &quot;id&quot;: &quot;NJSCADIJBI_TEST_34&quot;
+        }
+      ],
+      &quot;failureMessage&quot;: &quot;  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_1:::An Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax\n\n    expect(received).toBe(expected) // Object.is equality\n\n    Expected: \&quot;function\&quot;\n    Received: \&quot;undefined\&quot;\n\n      45 |\n      46 |   it(\&quot;:::NJSCADIJBI_TEST_1:::An Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax\&quot;, (done) =&gt; {\n    &gt; 47 |     expect(typeof app).toBe(\&quot;function\&quot;);\n         |                        ^\n      48 |     const getToken = loginUser();\n      49 |     getToken(done);\n      50 |   });\n\n      at Object.&lt;anonymous&gt; (index.test.js:47:24)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_2:::The POST request with path &#x27;/register/&#x27; should return &#x27;User already exists&#x27; as a response if the username already exists\n\n    TypeError: Cannot read property &#x27;post&#x27; of undefined\n\n      52 |   it(\&quot;:::NJSCADIJBI_TEST_2:::The POST request with path &#x27;/register/&#x27; should return &#x27;User already exists&#x27; as a response if the username already exists\&quot;, (done) =&gt; {\n      53 |     appInstance\n    &gt; 54 |       .post(\&quot;/register/\&quot;)\n         |        ^\n      55 |       .set(\&quot;Accept\&quot;, \&quot;application/json\&quot;)\n      56 |       .send({\n      57 |         name: \&quot;Serena Williams\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:54:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_3:::A user should not be created if the username already exists in database\n\n    TypeError: Cannot read property &#x27;all&#x27; of null\n\n      68 |   it(\&quot;:::NJSCADIJBI_TEST_3:::A user should not be created if the username already exists in database\&quot;, async () =&gt; {\n      69 |     expect(\n    &gt; 70 |       await database.all(\n         |                      ^\n      71 |         `SELECT name, username, gender FROM user WHERE username=&#x27;serenawilliams&#x27;`\n      72 |       )\n      73 |     ).toEqual([\n\n      at Object.&lt;anonymous&gt; (index.test.js:70:22)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_4:::The POST request with path &#x27;/register/&#x27; should return &#x27;Password is too short&#x27; as a response if the registrant provides a password with less than 6 characters\n\n    TypeError: Cannot read property &#x27;post&#x27; of undefined\n\n      82 |   it(\&quot;:::NJSCADIJBI_TEST_4:::The POST request with path &#x27;/register/&#x27; should return &#x27;Password is too short&#x27; as a response if the registrant provides a password with less than 6 characters\&quot;, (done) =&gt; {\n      83 |     appInstance\n    &gt; 84 |       .post(\&quot;/register/\&quot;)\n         |        ^\n      85 |       .set(\&quot;Accept\&quot;, \&quot;application/json\&quot;)\n      86 |       .send({\n      87 |         name: \&quot;Serena Thomas\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:84:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_5:::The POST request with path &#x27;/register/&#x27; should return &#x27;User created successfully&#x27; text as a response for a successful registration\n\n    TypeError: Cannot read property &#x27;post&#x27; of undefined\n\n       99 |   it(\&quot;:::NJSCADIJBI_TEST_5:::The POST request with path &#x27;/register/&#x27; should return &#x27;User created successfully&#x27; text as a response for a successful registration\&quot;, (done) =&gt; {\n      100 |     appInstance\n    &gt; 101 |       .post(\&quot;/register/\&quot;)\n          |        ^\n      102 |       .set(\&quot;Accept\&quot;, \&quot;application/json\&quot;)\n      103 |       .send({\n      104 |         name: \&quot;Serena Thomas\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:101:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_6:::The password should be encrypted before creating a user in the database\n\n    TypeError: Cannot read property &#x27;get&#x27; of null\n\n      115 |\n      116 |   it(\&quot;:::NJSCADIJBI_TEST_6:::The password should be encrypted before creating a user in the database\&quot;, async () =&gt; {\n    &gt; 117 |     const databasePassword = await database.get(\n          |                                             ^\n      118 |       `SELECT password FROM user WHERE username=&#x27;serenathomas&#x27;`\n      119 |     );\n      120 |     expect(await bcrypt.compare(\&quot;serana@123\&quot;, databasePassword.password)).toBe(\n\n      at Object.&lt;anonymous&gt; (index.test.js:117:45)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_7:::The user should be created in the database upon the success of the request with path &#x27;/register/&#x27;\n\n    TypeError: Cannot read property &#x27;get&#x27; of null\n\n      125 |   it(\&quot;:::NJSCADIJBI_TEST_7:::The user should be created in the database upon the success of the request with path &#x27;/register/&#x27;\&quot;, async () =&gt; {\n      126 |     expect(\n    &gt; 127 |       await database.get(\n          |                      ^\n      128 |         `SELECT username, name, gender FROM user WHERE username = &#x27;serenathomas&#x27;;`\n      129 |       )\n      130 |     ).toEqual({\n\n      at Object.&lt;anonymous&gt; (index.test.js:127:22)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_8:::The POST request with path &#x27;/login/&#x27; should return &#x27;Invalid user&#x27; text as a response for an unregistered user\n\n    TypeError: Cannot read property &#x27;post&#x27; of undefined\n\n      137 |   it(\&quot;:::NJSCADIJBI_TEST_8:::The POST request with path &#x27;/login/&#x27; should return &#x27;Invalid user&#x27; text as a response for an unregistered user\&quot;, (done) =&gt; {\n      138 |     appInstance\n    &gt; 139 |       .post(\&quot;/login/\&quot;)\n          |        ^\n      140 |       .set(\&quot;Accept\&quot;, \&quot;application/json\&quot;)\n      141 |       .send({\n      142 |         username: \&quot;wilda\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:139:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_9:::The POST request with path &#x27;/login/&#x27; should return &#x27;Invalid password&#x27; text as a response if the user provides an incorrect password\n\n    TypeError: Cannot read property &#x27;post&#x27; of undefined\n\n      152 |   it(\&quot;:::NJSCADIJBI_TEST_9:::The POST request with path &#x27;/login/&#x27; should return &#x27;Invalid password&#x27; text as a response if the user provides an incorrect password\&quot;, (done) =&gt; {\n      153 |     appInstance\n    &gt; 154 |       .post(\&quot;/login/\&quot;)\n          |        ^\n      155 |       .set(\&quot;Accept\&quot;, \&quot;application/json\&quot;)\n      156 |       .send({\n      157 |         username: \&quot;JimCameron\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:154:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_10:::The POST request with path &#x27;/login/&#x27; should return &#x27;JWT Token&#x27; as a response if the user provides correct credentials\n\n    TypeError: Cannot read property &#x27;post&#x27; of undefined\n\n      167 |   it(\&quot;:::NJSCADIJBI_TEST_10:::The POST request with path &#x27;/login/&#x27; should return &#x27;JWT Token&#x27; as a response if the user provides correct credentials\&quot;, (done) =&gt; {\n      168 |     appInstance\n    &gt; 169 |       .post(\&quot;/login/\&quot;)\n          |        ^\n      170 |       .set(\&quot;Accept\&quot;, \&quot;application/json\&quot;)\n      171 |       .send({\n      172 |         username: \&quot;JimCameron\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:169:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_11:::The GET request to the path &#x27;/user/tweets/feed/&#x27; with invalid JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      181 |   it(\&quot;:::NJSCADIJBI_TEST_11:::The GET request to the path &#x27;/user/tweets/feed/&#x27; with invalid JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response\&quot;, (done) =&gt; {\n      182 |     appInstance\n    &gt; 183 |       .get(\&quot;/user/tweets/feed\&quot;)\n          |        ^\n      184 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token + \&quot;fhbek\&quot;)\n      185 |       .expect(401)\n      186 |       .expect(\&quot;Invalid JWT Token\&quot;)\n\n      at Object.&lt;anonymous&gt; (index.test.js:183:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_12:::The GET request to the path &#x27;/user/tweets/feed/&#x27; with valid JWT token should return the latest 4 tweets of people whom the user follows\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      192 |   it(\&quot;:::NJSCADIJBI_TEST_12:::The GET request to the path &#x27;/user/tweets/feed/&#x27; with valid JWT token should return the latest 4 tweets of people whom the user follows\&quot;, (done) =&gt; {\n      193 |     appInstance\n    &gt; 194 |       .get(\&quot;/user/tweets/feed\&quot;)\n          |        ^\n      195 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token)\n      196 |       .expect(200)\n      197 |       .expect([\n\n      at Object.&lt;anonymous&gt; (index.test.js:194:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_13:::The GET request to the path &#x27;/user/following/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      227 |   it(\&quot;:::NJSCADIJBI_TEST_13:::The GET request to the path &#x27;/user/following/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response\&quot;, (done) =&gt; {\n      228 |     appInstance\n    &gt; 229 |       .get(\&quot;/user/following/\&quot;)\n          |        ^\n      230 |       .expect(401)\n      231 |       .expect(\&quot;Invalid JWT Token\&quot;)\n      232 |       .then((error, response) =&gt; {\n\n      at Object.&lt;anonymous&gt; (index.test.js:229:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_14:::The GET request to the path &#x27;/user/following/&#x27; with valid JWT token should return the list of all names of people whom the user follows\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      236 |   it(\&quot;:::NJSCADIJBI_TEST_14:::The GET request to the path &#x27;/user/following/&#x27; with valid JWT token should return the list of all names of people whom the user follows\&quot;, (done) =&gt; {\n      237 |     appInstance\n    &gt; 238 |       .get(\&quot;/user/following/\&quot;)\n          |        ^\n      239 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token)\n      240 |       .expect(200)\n      241 |       .expect([\n\n      at Object.&lt;anonymous&gt; (index.test.js:238:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_15:::The GET request to the path &#x27;/user/followers/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      251 |   it(\&quot;:::NJSCADIJBI_TEST_15:::The GET request to the path &#x27;/user/followers/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response\&quot;, (done) =&gt; {\n      252 |     appInstance\n    &gt; 253 |       .get(\&quot;/user/followers/\&quot;)\n          |        ^\n      254 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token + \&quot;fhbek\&quot;)\n      255 |       .expect(401)\n      256 |       .expect(\&quot;Invalid JWT Token\&quot;)\n\n      at Object.&lt;anonymous&gt; (index.test.js:253:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_16:::The GET request to the path &#x27;/user/followers/&#x27; with valid JWT token should return the list of all names of people who follows the user\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      261 |   it(\&quot;:::NJSCADIJBI_TEST_16:::The GET request to the path &#x27;/user/followers/&#x27; with valid JWT token should return the list of all names of people who follows the user\&quot;, (done) =&gt; {\n      262 |     appInstance\n    &gt; 263 |       .get(\&quot;/user/followers/\&quot;)\n          |        ^\n      264 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token)\n      265 |       .expect(200)\n      266 |       .expect([{ name: \&quot;Narendra Modi\&quot; }, { name: \&quot;Joe Biden\&quot; }])\n\n      at Object.&lt;anonymous&gt; (index.test.js:263:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_17:::The GET request to the path &#x27;/user/tweets/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      271 |   it(\&quot;:::NJSCADIJBI_TEST_17:::The GET request to the path &#x27;/user/tweets/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response\&quot;, (done) =&gt; {\n      272 |     appInstance\n    &gt; 273 |       .get(\&quot;/user/tweets/\&quot;)\n          |        ^\n      274 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token + \&quot;fhbek\&quot;)\n      275 |       .expect(401)\n      276 |       .expect(\&quot;Invalid JWT Token\&quot;)\n\n      at Object.&lt;anonymous&gt; (index.test.js:273:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_18:::The GET request to the path &#x27;/user/tweets/&#x27; with valid JWT token should return the list of all tweets of the user\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      281 |   it(\&quot;:::NJSCADIJBI_TEST_18:::The GET request to the path &#x27;/user/tweets/&#x27; with valid JWT token should return the list of all tweets of the user\&quot;, (done) =&gt; {\n      282 |     appInstance\n    &gt; 283 |       .get(\&quot;/user/tweets/\&quot;)\n          |        ^\n      284 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token)\n      285 |       .expect(200)\n      286 |       .expect([\n\n      at Object.&lt;anonymous&gt; (index.test.js:283:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_19:::The GET request to the path &#x27;/tweets/:tweetId/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      306 |   it(\&quot;:::NJSCADIJBI_TEST_19:::The GET request to the path &#x27;/tweets/:tweetId/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response\&quot;, (done) =&gt; {\n      307 |     appInstance\n    &gt; 308 |       .get(\&quot;/tweets/3\&quot;)\n          |        ^\n      309 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token + \&quot;fhbek\&quot;)\n      310 |       .expect(401)\n      311 |       .expect(\&quot;Invalid JWT Token\&quot;)\n\n      at Object.&lt;anonymous&gt; (index.test.js:308:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_20:::The GET request to the path &#x27;/tweets/:tweetId/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      317 |   it(\&quot;:::NJSCADIJBI_TEST_20:::The GET request to the path &#x27;/tweets/:tweetId/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following\&quot;, (done) =&gt; {\n      318 |     appInstance\n    &gt; 319 |       .get(\&quot;/tweets/11\&quot;)\n          |        ^\n      320 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token)\n      321 |       .expect(401)\n      322 |       .expect(\&quot;Invalid Request\&quot;)\n\n      at Object.&lt;anonymous&gt; (index.test.js:319:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_21:::The GET request to the path &#x27;/tweets/:tweetId/&#x27; with valid JWT token should return the tweet\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      328 |   it(\&quot;:::NJSCADIJBI_TEST_21:::The GET request to the path &#x27;/tweets/:tweetId/&#x27; with valid JWT token should return the tweet\&quot;, (done) =&gt; {\n      329 |     appInstance\n    &gt; 330 |       .get(\&quot;/tweets/1\&quot;)\n          |        ^\n      331 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token)\n      332 |       .expect(200)\n      333 |       .expect({\n\n      at Object.&lt;anonymous&gt; (index.test.js:330:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_22:::The GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      345 |   it(\&quot;:::NJSCADIJBI_TEST_22:::The GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response\&quot;, (done) =&gt; {\n      346 |     appInstance\n    &gt; 347 |       .get(\&quot;/tweets/2/likes\&quot;)\n          |        ^\n      348 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token + \&quot;fhbek\&quot;)\n      349 |       .expect(401)\n      350 |       .expect(\&quot;Invalid JWT Token\&quot;)\n\n      at Object.&lt;anonymous&gt; (index.test.js:347:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_23:::The GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      356 |   it(\&quot;:::NJSCADIJBI_TEST_23:::The GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following\&quot;, (done) =&gt; {\n      357 |     appInstance\n    &gt; 358 |       .get(\&quot;/tweets/11/likes\&quot;)\n          |        ^\n      359 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token)\n      360 |       .expect(401)\n      361 |       .expect(\&quot;Invalid Request\&quot;)\n\n      at Object.&lt;anonymous&gt; (index.test.js:358:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_24:::The GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; with valid JWT token and should return the list of usernames who liked the tweet\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      367 |   it(\&quot;:::NJSCADIJBI_TEST_24:::The GET request to the path &#x27;/tweets/:tweetId/likes/&#x27; with valid JWT token and should return the list of usernames who liked the tweet\&quot;, (done) =&gt; {\n      368 |     appInstance\n    &gt; 369 |       .get(\&quot;/tweets/3/likes\&quot;)\n          |        ^\n      370 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token)\n      371 |       .expect(200)\n      372 |       .expect({\n\n      at Object.&lt;anonymous&gt; (index.test.js:369:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_25:::The GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      380 |   it(\&quot;:::NJSCADIJBI_TEST_25:::The GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response\&quot;, (done) =&gt; {\n      381 |     appInstance\n    &gt; 382 |       .get(\&quot;/tweets/5/replies\&quot;)\n          |        ^\n      383 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token + \&quot;fhbek\&quot;)\n      384 |       .expect(401)\n      385 |       .expect(\&quot;Invalid JWT Token\&quot;)\n\n      at Object.&lt;anonymous&gt; (index.test.js:382:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_26:::The GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      391 |   it(\&quot;:::NJSCADIJBI_TEST_26:::The GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; with valid JWT token should return the `Invalid Request` text if the user requests a tweet other than the users he is following\&quot;, (done) =&gt; {\n      392 |     appInstance\n    &gt; 393 |       .get(\&quot;/tweets/11/replies\&quot;)\n          |        ^\n      394 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token)\n      395 |       .expect(401)\n      396 |       .expect(\&quot;Invalid Request\&quot;)\n\n      at Object.&lt;anonymous&gt; (index.test.js:393:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_27:::The GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; with valid JWT token and should return tweet and the list of all replies\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      402 |   it(\&quot;:::NJSCADIJBI_TEST_27:::The GET request to the path &#x27;/tweets/:tweetId/replies/&#x27; with valid JWT token and should return tweet and the list of all replies\&quot;, (done) =&gt; {\n      403 |     appInstance\n    &gt; 404 |       .get(\&quot;/tweets/2/replies\&quot;)\n          |        ^\n      405 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token)\n      406 |       .expect(200)\n      407 |       .expect({\n\n      at Object.&lt;anonymous&gt; (index.test.js:404:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_28:::The POST request to the path &#x27;/user/tweets/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response\n\n    TypeError: Cannot read property &#x27;post&#x27; of undefined\n\n      424 |   it(\&quot;:::NJSCADIJBI_TEST_28:::The POST request to the path &#x27;/user/tweets/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response\&quot;, (done) =&gt; {\n      425 |     appInstance\n    &gt; 426 |       .post(\&quot;/user/tweets/\&quot;)\n          |        ^\n      427 |       .set(\&quot;Accept\&quot;, \&quot;application/json\&quot;)\n      428 |       .send({\n      429 |         tweet: \&quot;Test tweet\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:426:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_29:::The POST request to the path &#x27;/user/tweets/&#x27; with valid JWT token should return `Created a Tweet` text as a response upon success\n\n    TypeError: Cannot read property &#x27;post&#x27; of undefined\n\n      437 |   it(\&quot;:::NJSCADIJBI_TEST_29:::The POST request to the path &#x27;/user/tweets/&#x27; with valid JWT token should return `Created a Tweet` text as a response upon success\&quot;, (done) =&gt; {\n      438 |     appInstance\n    &gt; 439 |       .post(\&quot;/user/tweets/\&quot;)\n          |        ^\n      440 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token)\n      441 |       .send({\n      442 |         tweet: \&quot;Test tweet\&quot;,\n\n      at Object.&lt;anonymous&gt; (index.test.js:439:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_30:::The database should be updated upon the successful post request\n\n    TypeError: Cannot read property &#x27;get&#x27; of null\n\n      450 |   it(\&quot;:::NJSCADIJBI_TEST_30:::The database should be updated upon the successful post request\&quot;, async () =&gt; {\n      451 |     expect(\n    &gt; 452 |       await database.get(`select tweet from tweet where tweet_id=12`)\n          |                      ^\n      453 |     ).toEqual({\n      454 |       tweet: \&quot;Test tweet\&quot;,\n      455 |     });\n\n      at Object.&lt;anonymous&gt; (index.test.js:452:22)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_31:::The DELETE request to the path &#x27;tweets/:tweetId/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response\n\n    TypeError: Cannot read property &#x27;delete&#x27; of undefined\n\n      457 |   it(\&quot;:::NJSCADIJBI_TEST_31:::The DELETE request to the path &#x27;tweets/:tweetId/&#x27; without JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid JWT Token&#x27; text as a response\&quot;, (done) =&gt; {\n      458 |     appInstance\n    &gt; 459 |       .delete(\&quot;/tweets/3/\&quot;)\n          |        ^\n      460 |       .expect(401)\n      461 |       .expect(\&quot;Invalid JWT Token\&quot;)\n      462 |       .then((error, response) =&gt; {\n\n      at Object.&lt;anonymous&gt; (index.test.js:459:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_32:::The DELETE request to the path &#x27;tweets/:tweetId/&#x27; with valid JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid Request&#x27; if the tweet doesn&#x27;t belong to the user\n\n    TypeError: Cannot read property &#x27;delete&#x27; of undefined\n\n      466 |   it(\&quot;:::NJSCADIJBI_TEST_32:::The DELETE request to the path &#x27;tweets/:tweetId/&#x27; with valid JWT token should return status code as &#x27;401&#x27; and &#x27;Invalid Request&#x27; if the tweet doesn&#x27;t belong to the user\&quot;, (done) =&gt; {\n      467 |     appInstance\n    &gt; 468 |       .delete(\&quot;/tweets/4/\&quot;)\n          |        ^\n      469 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token)\n      470 |       .expect(401)\n      471 |       .expect(\&quot;Invalid Request\&quot;)\n\n      at Object.&lt;anonymous&gt; (index.test.js:468:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_33:::The DELETE request to the path &#x27;tweets/:tweetId&#x27; with valid JWT token should return `Tweet Removed` text as a response upon success\n\n    TypeError: Cannot read property &#x27;delete&#x27; of undefined\n\n      476 |   it(\&quot;:::NJSCADIJBI_TEST_33:::The DELETE request to the path &#x27;tweets/:tweetId&#x27; with valid JWT token should return `Tweet Removed` text as a response upon success\&quot;, (done) =&gt; {\n      477 |     appInstance\n    &gt; 478 |       .delete(\&quot;/tweets/7/\&quot;)\n          |        ^\n      479 |       .set(\&quot;Authorization\&quot;, \&quot;bearer \&quot; + auth.token)\n      480 |       .expect(200)\n      481 |       .expect(\&quot;Tweet Removed\&quot;)\n\n      at Object.&lt;anonymous&gt; (index.test.js:478:8)\n\n  ● :::NJSCADIJBI_TEST_SUITE_1:::Tests for Operations on Twitter Clone database › :::NJSCADIJBI_TEST_34:::The database should be updated upon the successful delete request\n\n    TypeError: Cannot read property &#x27;get&#x27; of null\n\n      485 |   });\n      486 |   it(\&quot;:::NJSCADIJBI_TEST_34:::The database should be updated upon the successful delete request\&quot;, async () =&gt; {\n    &gt; 487 |     expect(await database.get(`select * from tweet where tweet_id=7`)).toBe(\n          |                           ^\n      488 |       undefined\n      489 |     );\n      490 |   });\n\n      at Object.&lt;anonymous&gt; (index.test.js:487:27)\n&quot;
+    }
+  ],
+  &quot;wasInterrupted&quot;: false
+}</div></body></html>
