@@ -4,6 +4,10 @@ Given an `app.js` file and a database file `twitterClone.db` consisting of five 
 
 Write APIs to perform operations on the tables `user`, `follower`, `tweet`, `reply`, and `like` containing the following columns,
 
+# DB DIAGRAM
+<a href="https://dbdiagram.io/d/6187baf6d5d522682dfc1a71">DB diagram -click here</a>
+
+
 **User Table**
 
 | Column   | Type    |
